@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/Aula06CiclodeVida/app/src/main/res/layout/activity_calendario.xml" value="0.2359375" />
         <entry key="..\:/AndroidStudioProjects/Aula06CiclodeVida/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioProjects/Aula06CiclodeVida/app/src/main/res/layout/activity_tela_dois.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/Aula06CiclodeVida/app/src/main/res/layout/activity_tela_tres.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/Aula06CiclodeVida/app/src/main/res/layout/activity_tela_um.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/Aula06CiclodeVida/app/src/main/res/layout/layout_botoes.xml" value="0.253125" />
       </map>

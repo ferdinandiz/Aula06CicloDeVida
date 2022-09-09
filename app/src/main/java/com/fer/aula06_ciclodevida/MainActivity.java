@@ -9,12 +9,13 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    Button btnA, btnC;
+    Button btnA, btnB, btnC;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         btnA = findViewById(R.id.btn_A);
+        btnB = findViewById(R.id.btn_B);
         btnC = findViewById(R.id.btn_C);
 
         Toast.makeText(MainActivity.this,
@@ -27,6 +28,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, TelaUm.class);
                 startActivity(i);
+            }
+        });
+
+        btnB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, TelaTres.class);
+                startActivity(i);
+                finish();
             }
         });
 
